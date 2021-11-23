@@ -5,64 +5,231 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>i-Educate</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
 </head>
 
 <body>
-    <nav class="navbar background">
-        <ul class="nav-list">
-            <div class="logo"><img src="img/logo.jpg" alt="logo"></div>
-            <li><a href="#home"> Home </a></li>
-            <li><a href="#about"> About </a></li>
-            <li><a href="#services"> Services </a></li>
-            <li><a href="#contact"> Contact </a></li>
-        </ul>
-        <div class="rightNav">
-            <input type="text" name="search" id="search">
-            <button class="btn btn-sm">Search</button>
-        </div>
-    </nav>
+    <div class="bgimg">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <div class="container-fluid">
 
-    <section class="background firstSection">
-        <div class="box-main">
-            <div class="firstHalf">
-                <p class="text-big">the Future Of Education is Here</p>
-                <p class="text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Suscipit repudiandae expedita saepe exercitationem facere illum sint,
-                    in incidunt explicabo dolor autem dolorum magni temporibus.
-                    Magni optio beatae nemo placeat nostrum.</p>
-                <div class="button">
-                    <button class="btn">Subscribe</button>
-                    <button class="btn">Watch Me</button>
+                <a href="" class="navbar-brand text-warning font-weight-bold">r@qesh</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link text-white"> SERVICES </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link text-white"> PORTFOLIO </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-white"> ABOUT </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#ourteam" class="nav-link text-white"> TEAM </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#CONTACT" class="nav-link text-white"> CONTACT </a>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+            </div> 
+        </nav>
+        <div class="container text-center text-white hearderset">
+            <h2>Welcome to our studio </h2>
+            <h1>Its nice to meet you </h1>
+            <button class="btn btn-warning text-white btn-lg"> Subscribe
+
+            </button>
+        </div>
+    </div>
+    <!-- ///////////////////----Services----///////////////-->
+
+
+    <section class="container-fluid ourservices text-center" id="services">
+        <h1>SERVICES</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <div class="row rowsetting">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning"> <i class="fa fa-shopping-cart fa-3x "> </i>
+                </div>
+                <h2>E- Commerce</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam obcaecati odit accusamus error quis
+                    repudiandae nostrum alias rem tenetur incidunt consectetur, nihil ad asperiores nesciunt beatae
+                    quidem eius? Consequuntur, corrupti.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning"> <i class="fa fa-desktop fa-3x text-white"> </i>
+                </div>
+                <h2>Responsive Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam obcaecati odit accusamus error quis
+                    repudiandae nostrum alias rem tenetur incidunt consectetur, nihil ad asperiores nesciunt beatae
+                    quidem eius? Consequuntur, corrupti.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning"> <i class="fa fa-lock fa-3x"> </i>
+                </div>
+                <h2>Web Security</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam obcaecati odit accusamus error quis
+                    repudiandae nostrum alias rem tenetur incidunt consectetur, nihil ad asperiores nesciunt beatae
+                    quidem eius? Consequuntur, corrupti.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ///////////////////---PORTFOLIO--////////////////-->
+    <section class="portfolio bg-light" id="portfolio">
+        <div class="container-fluid">
+            <h1> Portfolio </h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card ">
+                        <img src="https://source.unsplash.com/user/erondu/1600x900
+                        " alt="cimg1" class="card-img img-fluid">
+                        <div class="card-body">
+                            <h2>Threads</h2>
+                            <p>Illustration</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card ">
+                        <img src="https://source.unsplash.com/collection/190727/1600x900" alt="cimg1"
+                            class="card-img img-fluid">
+                        <div class="card-body">
+                            <h2>Explore</h2>
+                            <p>Graphic Design</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card ">
+                        <img src="https://source.unsplash.com/1600x900/?identity, person" alt="cimg1"
+                            class="card-img img-fluid">
+                        <div class="card-body">
+                            <h2>Finish</h2>
+                            <p>Identity</p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <div class="secondHalf">
-                <img src="img/logo.jpg" alt="future img" >
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card ">
+                        <img src="https://source.unsplash.com/1600x900/?brands, branding" alt="cimg1"
+                            class="card-img img-fluid">
+                        <div class="card-body">
+                            <h2>Lines</h2>
+                            <p>Branding</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card ">
+                        <img src="https://source.unsplash.com/1600x900/?laptop, webdesign" alt="cimg1"
+                            class="card-img img-fluid">
+                        <div class="card-body">
+                            <h2>Southwest</h2>
+                            <p>Website Design</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+                    <div class="card ">
+                        <img src="https://source.unsplash.com/1600x900/?pic, photography" alt="cimg1"
+                            class="card-img img-fluid">
+                        <div class="card-body">
+                            <h2>Window</h2>
+                            <p>Photography</p>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="secRight">
-        <p class="sectionTag">end of illertracy </p>
-        <p class="sectionsubTag">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Quaerat, officia sequi quos vel corrupti deserunt.Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Quaerat, officia sequi quos vel corrupti deserunt.Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Quaerat, officia sequi quos vel corrupti deserunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Distinctio, ex consequatur.
-             Modi sunt ex nisi natus. Aliquam, beatae perspiciatis mollitia vitae placeat fugit perferendis 
-             nam consequatur, labore sint dolores similique?
-             Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-             Quaerat, officia sequi quos vel corrupti deserunt.Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-             Quaerat, officia sequi quos vel corrupti deserunt.Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-             Quaerat, officia sequi quos vel corrupti deserunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-             Distinctio, ex consequatur.
-              Modi sunt ex nisi natus. Aliquam, beatae perspiciatis mollitia vitae placeat fugit perferendis 
-              nam consequatur, labore sint dolores similique?</p>
-            <div class="thumbnail">
-                <img src="img/logo.jpg" alt="img" class="imgFluid">
+    <!-- ///////////////////---ourteam--////////////////-->
+
+
+    <section class="ourteam" id="ourteam">
+        <div class="conainer-fluid text-center">
+            <h1>Our Amazing Team </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing. </p>
+            <div class="row teamsetting ">
+                <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                    <figure class="figure">
+                        <img src="https://source.unsplash.com/1600x900/?man, human" alt="cimg1"
+                            class="card-img img-fluid rounded-circle" height="250px" width="250px">
+                        <figcaption>
+                            <h4> Rakesh</h4>
+                            <p class="figure-caption">Lead Designer</p>
+                        </figcaption>
+
+                        <figure>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                    <figure class="figure">
+                        <img src="https://source.unsplash.com/1600x900/?jerry, cartooncharacter" alt="cimg2"
+                            class="card-img img-fluid rounded-circle" height="250px" width="250px">
+                        <figcaption>
+                            <h4> Raqesh</h4>
+                            <p class="figure-caption">Web developer</p>
+                        </figcaption>
+
+                        <figure>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                    <figure class="figure">
+                        <img src="https://source.unsplash.com/1600x900/?maninblack, humancha" alt="cimg3"
+                            class="card-img img-fluid rounded-circle" height="250px" width="250px">
+                        <figcaption>
+                            <h4> Raw-Cash</h4>
+                            <p class="figure-caption">Lead Designer</p>
+                        </figcaption>
+
+                        <figure>
+                </div>
             </div>
+
+
+        </div>
+
     </section>
+    <!-- ///////////////////---footer--////////////////-->
+
+    <footer class="footer" id="CONTACT">
+        <h6 class="container-fluid bg-dark  text-white text-center"> Copyright @ 2021, Design by Raqesh Pandey </h6>
+    </footer>
+
 </body>
 
 </html>
